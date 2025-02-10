@@ -1,0 +1,13 @@
+{
+  "name": "cli-setup",
+  "version": "0.0.1",
+  "description": "Dragon InterActive's CLI Setup for NodeJS Projects.",
+  "main": "setup.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Setup", "NodeJS", "CLi", "CLI Setup", "Setup Cli"],
+  "author": "MasterNemo@DragonInterActive",
+  "license": "MPL-2.0"
+}

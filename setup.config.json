@@ -1,0 +1,23 @@
+{
+    "packageManager": ["npm", "pnpm"],
+    "installDependencies": true,
+    "docker_compose": true,
+    "cleanup_after_production": true,
+    "questions":{
+        "dev": [
+            {"name": "DATABASE_HOST", "message": "Enter database host:", "default": "localhost"},
+            {"name": "DATABASE_USER", "message": "Enter database user:", "default": "root"},
+            {"name": "DATABASE_PASSWORD", "message": "Enter database password:", "type": "password"},
+            {"name": "DATABASE_PORT", "message": "Enter database port:", "default": 5432},
+            {"name": "APP_PORT", "message": "Enter development application port:", "default": 3000}
+        ],
+        "prod": [
+            {"name": "DATABASE_HOST", "message": "Enter database host:", "default": "localhost"},
+            {"name": "DATABASE_USER", "message": "Enter database user:", "default": "root"},
+            {"name": "DATABASE_PASSWORD", "message": "Enter database password:", "type": "password"},
+            {"name": "DATABASE_PORT", "message": "Enter database port:", "default": 5432},
+            {"name": "APP_PORT", "message": "Enter production application port:", "default": 8080}
+        ]
+    },
+    "sql_files":[]
+}
