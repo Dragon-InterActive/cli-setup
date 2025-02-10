@@ -17,6 +17,11 @@ Before running CLI-Setup, ensure the following requirements are met:
 
 - Optional: Docker (if `docker_compose` is enabled in the configuration)
 
+Hint
+-
+
+You need to create a directory `sql` and insert there your sql dumps.
+
 ## Configuration (`setup.config.json`)
 
 CLI-Setup relies on a configuration file (setup.config.json) to define installation parameters. Below is a sample structure:
